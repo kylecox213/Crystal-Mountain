@@ -26,26 +26,34 @@
 
 
     <div class="main-container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Crystal Collector Game</h1>
+
+        <div class="container1">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Crystal Collector Game</h1>
+                </div>
             </div>
         </div>
+
+
         <div class="row">
             <div class="col-7">
                 <div class="jumbotron">
-                    <div class="container">
+                    <div class="container2">
+
                         <div class="row">
                             <div class="col-12">
                                 <p>You will be assigned a random number upon initiation of the activity</p>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-12">
                                 <p>There are four crystals below. By clicking on a crystal, a specified
                                     amount of points will be added to the total score</p>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-12">
                                 <p>Winning the game, is to match your total score to the randomly selected number
@@ -53,11 +61,13 @@
                                     result in failure and game termination</p>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-12">
                                 <p>The numeric value assigned to each crystal is hidden until clicked</p>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-12">
                                 <p>New numeric values will be randomly assigned to each crystal upon game reinitiation
@@ -72,13 +82,77 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class=""
+
+
+        <div class="container3">
+            <div class="row">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="h2">Number to match: <span id="randomNumber"></span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="container4">
+            <div class="row">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="h2">Wins: <span id="wins"></span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="h2">Losses: <span id="losses"></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container5">
+            <div class="row">
+                <div class="gems">
+                    <div class="col-1">
+                        <img src="assets/images/blue.png" class=gemImage id="one" alt="Blue Gem">
+                    </div>
+                    <div class="col-1">
+                        <img src="assets/images/yellow.png" class=gemImage id="two" alt="Yellow Gem">
+                    </div>
+                    <div class="col-1">
+                        <img src="assets/images/red.png" class=gemImage id="three" alt="Red Gem">
+                    </div>
+                    <div class="col-1">
+                        <img src="assets/images/green.png" class=gemImage id="four" alt="Green Gem">
+                    </div>
+                    <div class="col-8">
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container6">
+            <div class="row">
+                <div class="col-3">
+                    <h2 class="h2">Your total score is: <span id="totalScore"></span></h2>
+                </div>
+                <div class="col-9">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+
     </div>
+   
 
     <nav class="navbar fixed-bottom navbar-expand lg navbar-dark bg-dark">
-        <div class="nav-item" style="color: white; margin: auto;">Copyright</div>
+        <div class="nav-item" style="color: white; margin: auto;">Crystal Collector Game</div>
     </nav>
 
 </body>
